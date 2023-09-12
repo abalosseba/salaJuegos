@@ -1,13 +1,13 @@
 <app-navigationbar></app-navigationbar>
+<h1>{{titlepage}}</h1>
 <div class="row row-cols-1 row-cols-md-2 g-4">
   <div class="col">
     <div class="card">
       <img [src]="card01" class="card-img-top" alt="Hollywood Sign on The Hill"/>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">{{titlecard1}}</h5>
         <p class="card-text">
-          This is a longer card with supporting text below as a natural lead-in to
-          additional content. This content is a little bit longer.
+          {{textcard1}}
         </p>
       </div>
     </div>
@@ -16,10 +16,9 @@
     <div class="card">
       <img [src]="card02" class="card-img-top" alt="Palm Springs Road"/>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">{{titlecard2}}</h5>
         <p class="card-text">
-          This is a longer card with supporting text below as a natural lead-in to
-          additional content. This content is a little bit longer.
+          {{textcard2}}
         </p>
       </div>
     </div>
@@ -28,8 +27,10 @@
     <div class="card">
       <img [src]="card03" class="card-img-top" alt="Los Angeles Skyscrapers"/>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <h5 class="card-title">{{titlecard3}}</h5>
+        <p class="card-text">
+          {{textcard3}}
+        </p>
       </div>
     </div>
   </div>
@@ -37,8 +38,10 @@
     <div class="card">
       <img [src]="card04" class="card-img-top" alt="Los Angeles Skyscrapers"/>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <h5 class="card-title">{{titlecard4}}</h5>
+        <p class="card-text">
+          {{textcard4}}
+        </p>
       </div>
     </div>
   </div>
