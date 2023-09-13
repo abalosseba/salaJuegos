@@ -10,6 +10,7 @@ import { QuiensoyComponent } from './components/quiensoy/quiensoy.component';
 import { NavigationbarComponent } from './components/navigationbar/navigationbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { MdbCheckboxModule } from 'mdb-angular-ui-kit/checkbox';
+import { SignupComponent } from './components/signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { MdbCheckboxModule } from 'mdb-angular-ui-kit/checkbox';
     QuiensoyComponent,
     NavigationbarComponent,
     FooterComponent,
+    SignupComponent,
   ],
   imports: [
     MdbCheckboxModule,
